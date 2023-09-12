@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(222, 222, 222);
+    font-size: 13px;
+}
+
+.container {
+    display: flex;
+}
+
+.Menu {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(222, 222, 222);
+}
+
+.Menu h1 {
+    padding-left: 40%;
+    padding-top: 1.5%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.Menu h2 {
+    padding-left: 50%;
+    padding-top: 0.5%;
+    color:rgb(89, 92, 95);
+    font-family:'Times New Roman', Times, serif;
+}
+
+.Menu .line_1 {
+    width: 99%;
+    height: 2%;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+    border-radius: 10px;
+    background-color: rgba(245, 241, 241, 0.571);
+}
+
+section {
+    width: 100%;
+    height: 500px;
+}
+
+.photo {
+    width: 470px;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 690px;
+    background-color: rgb(238, 233, 233);
+    border: 0.1px solid #cedcef;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+
+.photo img {
+    width: 97%;
+    height: 97%;
+    margin-left: 6.5px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+aside {
+    width: 100px;
+    height: 300px;
+    float: right;
+    float: top;
+    display: inline-block;
+    background-color: red;
+} 
+
+.photo h1 {
+    margin-left: 25%;
+    margin-top: 3%;
+    font-size: 15px;
+    color: rgb(79, 79, 79);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.texto_1 {
+    width: 300px;
+    height: 500px;
+    background-color: rgb(238, 233, 233);
+    margin-left: 200px;
+    margin-top: 20px;
+    padding: 5px;
+    border: 1px solid #d7e2e6;
+    border-radius: 20px;
+}
+
+.text_bar, .text_bar2, .text_bar3, .text_bar4 {
+   font-weight: bolder;
+   background-color: #c6d2ddcb;
+   border-radius: 10px;
+   color: black;
+   padding: 6px;
+}
+.text_bar{
+    padding-left: 30%;
+}
+.text_bar2 {
+    padding-left: 32%;
+}
+.text_bar3 {
+    padding-left: 36%;
+}
+.text_bar4 {
+    padding-left: 35%;
+}
+
+.text_bar2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.bar_name,.bar_birth, .bar_place, .bar_height, .bar_position {
+    display: flex;
+    padding-top: 5px;
+}
+.text_bar_2 span {
+    font-weight: bold;
+}
+.bar_name p {
+    padding-left: 30px;
+}
+.bar_birth p {
+    padding-left: 14px;
+}
+.bar_place p {
+    padding-left: 13px;
+}
+.bar_height p {
+    padding-left: 50px;
+}
+.bar_position p {
+    padding-left: 30px;
+    margin-bottom: 5px;
+}
+.bar_place a, .bar_2_texto a, .team_info a,
+.first_club a, .first_club2 a {
+    text-decoration: none;
+}
+
+.team_info, .team_info_2 {
+    display: flex;
+    padding-top: 5px;
+}
+.team_info span {
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.team_info_2 span {
+    font-weight: bold;
+    margin-right: 43.5px;
+    padding-bottom: 4px;
+}
+.first_club, .first_club2 {
+    display: flex;
+    padding-top: 5px;
+}
+.first_club span, .first_club2 span {
+    margin-right: 30px;
+}
+.first_club2 span {
+    padding-bottom: 5px;
+}
+
+.bar4_1 {
+    display: flex;
+    font-weight: bold;
+    padding: 5px;
+}
+.bar4_1-1, .bar4_1-2 {
+    padding-right: 22%;
+}
+.bar4_1-3, .bar4_1-4 {
+    padding-left: 2.2%;
+}
+.bar4_2, .bar4_3, .bar4_4, .bar4_5 {
+    display: flex;
+    padding: 5px;
+}
+.bar4_2-1, .bar4_2-2 {
+    padding-right: 14%;
+}
+.bar4_2-3 {
+    padding-left: 8.3%;
+}
+.bar4_2-4 {
+    padding-left: 6%;
+}
+.bar4_2-2 a {
+    text-decoration: none;
+}
+
+.bar4_3-1, .bar4_3-2 {
+    padding-right: 14%;
+}
+.bar4_3-3 {
+    padding-left: 2%;
+}
+.bar4_3-4 {
+    padding-left: 7.5%;
+}
+.bar4_3 a {
+    text-decoration: none;
+}
+
+.bar4_4-1, .bar4_4-2 {
+    padding-right: 4%;
+}
+.bar4_4-3 {
+    padding-left: 4.5%;
+}
+.bar4_4-4 {
+    padding-left: 7%;
+}
+.bar4_4 a {
+    text-decoration: none;
+}
+
+.bar4_5-1, .bar4_5-1{
+    padding-right: 24%;
+}
+.bar4_5-3 {
+    padding-left: 22%;
+}
+.bar4_5-4 {
+    padding-left: 9.5%;
+}
+.bar4_5 a {
+    text-decoration: none;
+}
+
+.social_media {
+    width: 275px;
+    height: 22px;
+    display: flex;
+    margin-left: 47.5%;
+    padding-top: 3.5%;
+}
+.social_media img {
+    width: 100%;
+    height: 100%;
+}
+.tiktok, .instagram, .twitter {
+    padding-right: 15px;
+}
+
+content {
+    font-size: 17px;
+}
+content p, content h1 {
+    padding-left:30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.footer_area {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 50%;
+    border-top: 1px solid rgb(124, 124, 124);
+    color: rgb(89, 92, 95);
+}
+.footer_area p, .footer_area span {
+    margin-bottom: 10px;
+}
+.footer_area span {
+    padding-left: 5px;
+    color: rgb(64, 65, 67);
+}
